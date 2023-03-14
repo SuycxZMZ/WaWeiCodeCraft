@@ -1,4 +1,10 @@
 #include <iostream>
+#include "config.h"
+#include "paseline.h"
+
+
+
+
 using namespace std;
 
 bool readUntilOK() {
@@ -8,9 +14,15 @@ bool readUntilOK() {
             return true;
         }
         //do something
+
+
     }
     return false;
 }
+
+int money = 0;
+robot robot1, robot2, robot3, robot4;
+
 
 int main() {
     readUntilOK();

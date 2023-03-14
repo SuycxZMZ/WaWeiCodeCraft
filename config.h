@@ -2,6 +2,8 @@
 #ifndef _CONFIG_H_
 #define _CONFIG_H_
 
+/* 各种类 */
+
 class goods
 {
 public:
@@ -18,7 +20,7 @@ public:
     int leftime;
     int material_state;
     int goodstate;
-    float x;
+    float x;                          // 位置
     float y;
     
 };
